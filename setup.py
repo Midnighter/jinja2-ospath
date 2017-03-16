@@ -19,7 +19,8 @@ test_requirements = [
 setup(
     name="jinja2_ospath",
     version="0.2.1",
-    description="A Jinja2 extension that introduces the filters basename and dirname.",
+    description="A Jinja2 extension that introduces the template filters"\
+                " basename and dirname.",
     long_description=readme,
     author="Moritz Emanuel Beber",
     author_email="midnighter@posteo.net",
