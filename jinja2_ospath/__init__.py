@@ -8,4 +8,4 @@ from .extensions import *
 
 __author__ = "Moritz E. Beber"
 __email__ = "morbeb@biosustain.dtu.dk"
-__version__ = "0.2.0"
+__version__ = "0.2.1"
