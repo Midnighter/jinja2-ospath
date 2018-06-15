@@ -24,7 +24,7 @@ __all__ = ("OSPathExtension",)
 class OSPathExtension(Extension):
     """A Jinja2 extension that introduces `os.path` functionality."""
 
-    tags = frozenset(["basename", "dirname"])
+    tags = frozenset(["basename", "dirname", "abspath"])
 
     def __init__(self, environment):
         """Initialize the extension and prepare the Jinja2 environment."""
